@@ -74,7 +74,10 @@ header button{
     width: 7rem;
     height: 2rem;
     font-size: 1.6rem;
-    background-color: blue;
+    background-color: rgb(237, 237, 241);
+    color:black;
+    font-weight: bold;
+    border: 1px solid black;
 }
 
 #home{
@@ -184,5 +187,33 @@ h2{
 }
 .product-section button{
     font-size:1.3rem;
+    
+}
+@media screen and (max-width:600px) {
+    header p{
+        font-size: 1.9rem;
+        left:10px;
+        top:20px;
+    }
+    header button{
+        font-size:1rem;
+        left:70%;
+    }
+    #inner-box h1{
+        font-size: 2rem;
+    }
+    #inner-box h2{
+        font-size:1rem;
+    }
+     #cartbox div h4,  #cartbox div h3{
+        display: block;
+    }
+    #cartbox:target{
+        width: 80%;
+    }
+    #cartbox div h3{
+        left: 0;
+    }
+
     
 }
